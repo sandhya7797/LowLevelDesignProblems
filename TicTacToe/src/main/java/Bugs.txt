@@ -1,0 +1,2 @@
+1. when two players are playing one is human player and other is bot. Human cell is overriding filled cell.
+2. For bots undo option should not be asked in the console.

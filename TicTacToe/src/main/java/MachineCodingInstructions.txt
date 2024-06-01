@@ -1,0 +1,19 @@
+    steps :-
+    1. create new project in your IDE and create project structure on high-level (models, controllers, services, repositories packages etc)
+    2. create all model classes inside model package for all the entities present in the requirements.
+    3. Add all attributes for their respective model class and add getters and setters as required.
+    4. maintain separate packages for design patterns (at-least for interfaces) if possible include implementations also.
+    5. create a manager class (like Game class) where all entities are being managed.
+    6. Implement builder design pattern on the Game Class (which includes input validations also).
+    7. create a controller class (like GameController) and expose APIs/methods/functionalities used by the game to the outside world or client. Functionalities should be specific to the controller.
+    8. Add constructors in all model classes carefully. (If constructors are not created properly we might get NullPointerExceptions).
+    9. Implement all functionalities of game in controller class.
+
+Scope of Improvements -
+1. At game start ask if undo should be enabled ?
+2.
+
+
+
+
+
