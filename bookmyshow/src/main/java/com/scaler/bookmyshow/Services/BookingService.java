@@ -46,7 +46,7 @@ public class BookingService {
         this.bookingRepository = bookingRepository;
     }
 
-    @Transactional(isolation = Isolation.SERIALIZABLE)
+    @Transactional(isolation = Isolation.SERIALIZABLE) /* @Transactional is used to mark methods that should run within a database transaction. Serializable is the highest level of isolation. */
     public Booking bookTicket(Long userId, Long showId, List<Long> seatIds)
             throws InvalidShowIdException, UserNotFoundException, SeatNotAvailableException {
 
